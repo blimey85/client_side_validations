@@ -1,7 +1,8 @@
 *.gem
 *.lock
 *.swp
-
+.gitignore
+.idea
 .*rc
 .bundle
 .byebug_history

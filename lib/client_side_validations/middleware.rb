@@ -65,7 +65,7 @@ module ClientSideValidations
       def response
         begin
           if unique?
-            self.status = 404
+            self.status = 200
             self.body   = 'true'
           else
             self.status = 200
